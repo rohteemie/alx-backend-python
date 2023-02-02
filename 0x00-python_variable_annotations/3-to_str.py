@@ -5,4 +5,5 @@
 
 
 def to_str(n: float) -> str:
+    """Convert float to strings"""
     return str(n)

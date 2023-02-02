@@ -2,9 +2,10 @@
 """
   Complex types - list of floats
 """
+from typing import List
 
 
-def sum_list(input_list: float) -> float:
+def sum_list(input_list: List[float]) -> float:
     list_sum: float = 0
     num: float
     for num in input_list:
